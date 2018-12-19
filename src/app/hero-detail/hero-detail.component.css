@@ -1,0 +1,4 @@
+.center-title, .center-heroes{
+    display: flex;
+    justify-content: center
+}

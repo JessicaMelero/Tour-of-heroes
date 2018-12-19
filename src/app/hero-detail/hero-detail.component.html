@@ -1,7 +1,13 @@
 <div *ngIf="hero">
-  <h2>{{hero.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{hero.id}}</div>
-  <div>
+  <div class="center-title">
+    <h2>{{hero.name | uppercase}} Details</h2>
+  </div>
+  <div class="center-heroes">
+    <span>id: </span>
+    {{hero.id}}
+  </div>
+  <br>
+  <div class="center-heroes">
     <label>name:
       <input [(ngModel)]="hero.name" placeholder="name">
     </label>
